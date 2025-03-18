@@ -1,8 +1,8 @@
 (function modifySearchNav() {
     function updateSearchText() {
         const searchNavItem = document.querySelector('li[data-id="/search"] span[data-encore-id="text"]');
-        if (searchNavItem && !searchNavItem.innerText.includes('(Ctrl+Space)')) {
-            searchNavItem.innerText += ' (Ctrl+Space)';
+        if (searchNavItem && !searchNavItem.innerText.includes('(Ctrl+K)')) {
+            searchNavItem.innerText += ' (Ctrl+K)';
         }
     }
 
